@@ -1,6 +1,7 @@
 {
   "name": "@dilandoogan/react-library",
   "publishConfig": {
+    "access": "public",
     "registry": "https://npm.pkg.github.com/dilandoogan"
   },
   "version": "1.0.3",
@@ -10,7 +11,8 @@
     "rollup": "rollup -c",
     "dev": "nodemon ./bin/www",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "semantic-release": "semantic-release"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +25,11 @@
     "@rollup/plugin-commonjs": "^25.0.5",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.5",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^11.0.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^11.0.0",
+    "@semantic-release/release-notes-generator": "^12.0.0",
     "@storybook/addon-essentials": "^7.4.6",
     "@storybook/addon-interactions": "^7.4.6",
     "@storybook/addon-links": "^7.4.6",
@@ -47,6 +54,7 @@
     "rollup-plugin-postcss": "^4.0.2",
     "sass": "^1.69.3",
     "sass-loader": "^13.3.2",
+    "semantic-release": "^22.0.5",
     "storybook": "^7.4.6",
     "style-loader": "^3.3.3",
     "tslib": "^2.6.2",
